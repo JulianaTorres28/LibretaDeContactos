@@ -12,6 +12,7 @@ public class Principal {
         // Instanciar Scanner
         Scanner sc = new Scanner(System.in);
 
+        Persona personita = new Persona();
 
         // Ingreso del número de personas
         System.out.print("Ingrese el número de personas: ");
