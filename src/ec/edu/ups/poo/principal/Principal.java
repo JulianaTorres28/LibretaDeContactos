@@ -10,7 +10,7 @@ public class Principal {
 
     public static void main(String[] args) {
         // Instanciar Scanner
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // cerrar el scanner al terminar el codigo 
 
         Persona personita = new Persona();
 
@@ -57,7 +57,7 @@ public class Principal {
             System.out.print("Ingrese el tipo de sangre: ");
             String tipoSangre = sc.next();
             System.out.print("Ingrese el año de nacimiento: ");
-            int añoNacimiento = sc.nextInt();
+            int añoNacimiento = sc.nextInt(); //sc.nextLine() después del nexInt para evitar problemas con el ingreso de datos
             System.out.print("Ingrese el mes de nacimiento: ");
             int mesNacimiento = sc.nextInt();
             System.out.print("Ingrese el día de nacimiento: ");
