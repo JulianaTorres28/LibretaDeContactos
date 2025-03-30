@@ -47,7 +47,7 @@ public class Familiar extends Persona {
         this.edad = edad;
     }
 
-    public double getEdad() {
+    public double getEdad() { // cambiar por calcularEdad para no devolver a la edad que no se actualiza 
         return edad;
     }
 
@@ -62,7 +62,7 @@ public class Familiar extends Persona {
         return super.toString() +
                 ", \n\t Parentesco: " + parentesco +
                 ", \n\t Tipo de sangre: " + tipoDeSangre +
-                "\n\t Edad: " + calcularEdad();
+                "\n\t Edad: " + calcularEdad(); // validar para que no salga una excepcion
 
     }
 }
