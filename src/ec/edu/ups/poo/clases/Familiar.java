@@ -1,7 +1,7 @@
 package ec.edu.ups.poo.clases;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-
+// inicio de comentario para actualizar en github
 public class Familiar extends Persona {
     private String parentesco;
     private String tipoDeSangre;
